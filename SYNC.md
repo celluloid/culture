@@ -1,6 +1,6 @@
 # Celluloid::Sync
 
-The `celluloid/culture` sub-module needs to be updated in ever repository which uses it, and integrations between all the gems in Celluloid's core suite began to need greater efficiency in handling many gems at once. This lead to the birth of `Celluloid::Sync` and its automation of several otherwise tedious tasks.
+The `celluloid/culture` sub-module needs to be updated in every repository which uses it, and integrations between all the gems in Celluloid's core suite began to need greater efficiency in handling many gems at once. This lead to the birth of `Celluloid::Sync` and its automation of several otherwise tedious tasks.
 
 
 ## When all is said and done...
