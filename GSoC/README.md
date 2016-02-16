@@ -11,5 +11,5 @@ Please feel free to fork, edit, and request your changes be pulled in.
 
 
 
-[1]: https://github.com/celluloid/culture/blob/master/GSoC/1001-why.md
-[2]: https://github.com/celluloid/culture/blob/master/GSoC/1010-how.md
+[1]: https://github.com/celluloid/culture/blob/master/GSoC/1001-why_we_will_participate.md
+[2]: https://github.com/celluloid/culture/blob/master/GSoC/1010-how_mentors_stay_engaged.md
