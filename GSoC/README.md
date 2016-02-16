@@ -15,4 +15,4 @@ Please feel free to fork, edit, and request your changes be pulled in.
 [3]: https://github.com/celluloid/culture/blob/master/GSoC/1020-keeping_students_on_schedule.md
 
 
-### [Ideas List](https://github.com/celluloid/culture/blob/master/GSoC/IDEAS.md)
+### Also, see: [Ideas List](https://github.com/celluloid/culture/blob/master/GSoC/IDEAS.md)
