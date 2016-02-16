@@ -1,4 +1,4 @@
-### These are the answers to our GSoC Organization application.
+### Answers to our GSoC Organization application questions:
 
 Please feel free to fork, edit, and request your changes be pulled in.
 
@@ -10,7 +10,9 @@ Please feel free to fork, edit, and request your changes be pulled in.
 * Anything else we should know?
 
 
-
 [1]: https://github.com/celluloid/culture/blob/master/GSoC/1001-why_we_will_participate.md
 [2]: https://github.com/celluloid/culture/blob/master/GSoC/1010-how_mentors_stay_engaged.md
 [3]: https://github.com/celluloid/culture/blob/master/GSoC/1020-keeping_students_on_schedule.md
+
+
+## [Ideas List](https://github.com/celluloid/culture/blob/master/GSoC/IDEAS.md)
