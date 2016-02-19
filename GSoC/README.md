@@ -14,6 +14,3 @@ Please feel free to fork, edit, and request your changes be pulled in.
 [3]: https://github.com/celluloid/culture/blob/master/GSoC/1030-keeping_students_on_schedule.md
 [4]: https://github.com/celluloid/culture/blob/master/GSoC/1040-getting_students_involved.md
 [5]: https://github.com/celluloid/culture/blob/master/GSoC/1050-student_involvement_after.md
-
-
-### Also, see: [Ideas List](https://github.com/celluloid/culture/blob/master/GSoC/IDEAS.md)
