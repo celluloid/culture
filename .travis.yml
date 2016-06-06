@@ -3,8 +3,8 @@ install: gem install bundler
 script: "bundle && bundle exec rake"
 
 rvm:
+  - rbx
   - 2.2.2
-  - rbx-3.36.0
   - jruby-head
   - rbx-2.5.8
   - ruby-head
@@ -14,7 +14,6 @@ matrix:
   allow_failures:
     - rvm: ruby-head
     - rvm: jruby-head
-    - rvm: rbx-3.36.0
     - rvm: rbx-2.5.8
 
 notifications:
