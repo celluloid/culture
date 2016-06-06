@@ -4,16 +4,18 @@ script: "bundle && bundle exec rake"
 
 rvm:
   - 2.2.2
-  - ruby-head
+  - rbx-3.36.0
   - jruby-head
-  - rubinius-3.36
+  - rbx-2.5.8
+  - ruby-head
 
 matrix:
   fast_finish: true
   allow_failures:
     - rvm: ruby-head
     - rvm: jruby-head
-    - rvm: rubinius-3.36
+    - rvm: rbx-3.36.0
+    - rvm: rbx-2.5.8
 
 notifications:
   irc: "irc.freenode.org#celluloid"
