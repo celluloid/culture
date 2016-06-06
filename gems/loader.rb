@@ -33,7 +33,7 @@ module Celluloid
     end
 
     unless @dependencies.is_a?(Hash) && @dependencies.any?
-      fail "Celluloid cannot find its dependencies."
+      raise "Celluloid cannot find its dependencies."
     end
 
     undef core? rescue nil

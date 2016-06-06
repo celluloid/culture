@@ -39,7 +39,7 @@ module Celluloid
       end
     end
 
-    fail "Missing gemspec." unless gem_name?
+    raise "Missing gemspec." unless gem_name?
     $LOAD_PATH.push(gem_path)
     $LOAD_PATH.push(lib_path)
 
