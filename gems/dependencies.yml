@@ -25,6 +25,14 @@ rake:
 rspec:
   dependency: development
 
+listen:
+  version: '3.0.3'
+  dependency: development
+
+guard:
+  version: '2.13.0'
+  dependency: development
+
 guard-rspec:
   dependency: development
 
