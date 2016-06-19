@@ -1,6 +1,6 @@
 # Celluloid::Sync
 
-The `celluloid/culture` sub-module needs to be updated in ever repository which uses it, and integrations between all the gems in Celluloid's core suite began to need greater efficiency in handling many gems at once. This lead to the birth of `Celluloid::Sync` and its automation of several otherwise tedious tasks.
+The `celluloid/culture` sub-module needs to be updated in every repository which uses it, and integrations between all the gems in Celluloid's core suite began to need greater efficiency in handling many gems at once. This lead to the birth of `Celluloid::Sync` and its automation of several otherwise tedious tasks.
 
 
 ## When all is said and done...
@@ -49,14 +49,14 @@ Gem::Specification.new do |gem|
   # Keep in mind, the VERSION constant of this gem ought to be loaded.
   # ...
   # ...
-  Celluloid::Sync.gems(gem)
+  Celluloid::Sync::Gemspec[gem]
 end
 
 ```
 
 #### Finishing off `Gemfile` ...
 
-Same as in `gemspec` you have only two bits to add. The second line we're adding goes at the very end, or at least after `gemspec` is called:
+Similar to `gemspec` above, you have only two bits to add. The second line we're adding goes at the very end, or at least after `gemspec` is called:
 
 ```ruby
 require File.expand_path("../culture/sync", __FILE__)
@@ -66,5 +66,5 @@ require File.expand_path("../culture/sync", __FILE__)
 # below any other gems
 # ...
 
-Celluloid::Sync.gems(self)
+Celluloid::Sync::Gemfile[self]
 ```
